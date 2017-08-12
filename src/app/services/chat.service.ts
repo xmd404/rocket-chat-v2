@@ -38,7 +38,7 @@ export class ChatService {
     console.log('Called sendMessage()!');
   }
 
-   getMessages(): FirebaseListObservable<ChatMessage[]> {
+  getMessages(): FirebaseListObservable<ChatMessage[]> {
     // query to create our message feed binding
     return this.db.list('messages', {
       query: {
