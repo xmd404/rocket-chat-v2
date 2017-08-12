@@ -4,5 +4,13 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyCk4PtPA3JyAfll1fri_Fu-dPKJSbW2v-w',
+    authDomain: 'rocketchatv2.firebaseapp.com',
+    databaseURL: 'https://rocketchatv2.firebaseio.com',
+    projectId: 'rocketchatv2',
+    storageBucket: 'rocketchatv2.appspot.com',
+    messagingSenderId: '576850603027'
+  }
 };
