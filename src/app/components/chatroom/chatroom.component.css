@@ -1,0 +1,33 @@
+.mainContent {
+    display: flex;
+}
+
+.userListWrapper {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    flex: 1;
+    color: #FFF;
+    order: 1;
+    background-color: #2A2845;
+    padding: 20px 0px 40px 30px;
+    border-right: 1px solid #222;
+}
+
+.feedWrapper {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    flex: 5;
+    order: 2;
+    overflow-y: scroll;
+    padding: 20px 0px 0px 24px;
+    background-color: #FFF;
+    background: linear-gradient(180deg, rgba(100,200,255,0.6), rgba(0,0,0,0.9)), url('http://wallpapercave.com/wp/kSQdCxM.jpg') center center no-repeat;
+}
+
+.chatFormWrapper {
+    display: flex;
+    height: 50px;
+    background-color: #EEE;
+    z-index: 3;
+}
